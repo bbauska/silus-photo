@@ -1,0 +1,1 @@
+silus-photo/dist/img/
