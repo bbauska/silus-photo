@@ -7,9 +7,9 @@
   }'>
 
   <!-- ### gallery content ### -->
-  <a href="img_01.jpg" data-ngthumb="img_01t.jpg">Title Image 1</a>
-  <a href="img_02.jpg" data-ngthumb="img_02t.jpg">Title Image 2</a>
-  <a href="img_03.jpg" data-ngthumb="img_03t.jpg">Title Image 3</a>
+  <a href="./dist/img/img01.png" data-ngthumb="img_01t.jpg">Title Image 1</a>
+  <a href="./dist/img/img02.jpg" data-ngthumb="img_02t.jpg">Title Image 2</a>
+  <a href="./dist/img/img03.jpg" data-ngthumb="img_03t.jpg">Title Image 3</a>
 </div>
 
 <!-- Setup example using JavaScript -->
@@ -21,43 +21,43 @@ $("#my_nanogallery2").nanogallery2({
 
   <!-- ### gallery content ### -->
   items: [
-      { src: 'img_01.jpg', srct: 'img_01t.jpg', title: 'Title Image 1' },
-      { src: 'img_02.jpg', srct: 'img_02t.jpg', title: 'Title Image 2' },
-      { src: 'img_03.jpg', srct: 'img_03t.jpg', title: 'Title Image 3' }
+      { src: './dist/img/img01.png', srct: 'img_01t.jpg', title: 'Title Image 1' },
+      { src: './dist/img/img02.jpg', srct: 'img_02t.jpg', title: 'Title Image 2' },
+      { src: './dist/img/img03.jpg', srct: 'img_03t.jpg', title: 'Title Image 3' }
   ]
 });
 
 <!-- Image gallery -->
   <div id="my_nanogallery2" data-nanogallery2 = '{ "itemsBaseURL": "https://mywebserver/gallery/myimages/"}' >
-    <a href="img_01.jpg" data-ngthumb="img_01t.jpg"  data-ngdesc="Description1"        >Title Image1</a>
-    <a href="img_02.jpg" data-ngthumb="img_02ts.jpg" data-ngdesc="Image 2 description" >Title Image2</a>
-    <a href="img_03.jpg" data-ngthumb="img_03t.jpg"                                    >Title Image3</a>
+    <a href="./dist/img/img01.png" data-ngthumb="img_01t.jpg"  data-ngdesc="Description1"        >Title Image1</a>
+    <a href="./dist/img/img02.jpg" data-ngthumb="img_02ts.jpg" data-ngdesc="Image 2 description" >Title Image2</a>
+    <a href="./dist/img/img03.jpg" data-ngthumb="img_03t.jpg"                                    >Title Image3</a>
   </div>
           Note: you may use the option itemsBaseURL to define the base URL where medias are stored.
   <div id="my_nanogallery2" data-nanogallery2  >
-    <a href="img/img_01.jpg">Title Image 2
-      <img src="img/img_01_thumbnail.jpg"/>
+    <a href="./dist/img/img01.png">Title Image 2
+      <img src="./dist/img/img01_thumbnail.jpg"/>
     </a>
-    <a href="img/img_02.jpg">Title Image 2
-      <img src="img/img_02_thumbnail.jpg"/>
+    <a href="./dist/img/img02.jpg">Title Image 2
+      <img src="./dist/img/img02_thumbnail.jpg"/>
     </a>
-    <a href="img/img_03.jpg">Title Image 3
-      <img src="img/img_03_thumbnail.jpg"/>
+    <a href="./dist/img/img03.jpg">Title Image 3
+      <img src="./dist/img/img03_thumbnail.jpg"/>
     </a>
   </div>
   
   <!-- Image gallery with albums -->
   <div id="my_nanogallery2" data-nanogallery2 = '{ "itemsBaseURL": "https://mywebserver/gallery/myimages/"}' >
   <!-- FIRST ALBUM -->
-  <a href=""           data-ngkind="album" data-ngid="1"                     data-ngthumb="img01Ta.jpg" >Album A</a>
-  <a href="img02a.jpg"                     data-ngid="10" data-ngalbumid="1" data-ngthumb="img02Ta.jpg" >Image 1 / album A</a>
-  <a href="img03a.jpg"                     data-ngid="11" data-ngalbumid="1" data-ngthumb="img03Ta.jpg" >Image 2 / album A</a>
+  <a href=""           data-ngkind="album" data-ngid="1"                     data-ngthumb="./dist/img/img01Ta.jpg" >Album A</a>
+  <a href="./dist/img/img02a.jpg"                     data-ngid="10" data-ngalbumid="1" data-ngthumb="img02Ta.jpg" >Image 1 / album A</a>
+  <a href="./dist/img/img03a.jpg"                     data-ngid="11" data-ngalbumid="1" data-ngthumb="img03Ta.jpg" >Image 2 / album A</a>
 
   <!-- SECOND ALBUM -->
-  <a href=""          data-ngkind="album" data-ngid="2"                     data-ngthumb="image_02t.jpg" >Album B</a>
-  <a href="img02.jpg"                     data-ngid="20" data-ngalbumid="2" data-ngthumb="img02T.jpg"    >Image1</a>
-  <a href="img03.jpg"                     data-ngid="21" data-ngalbumid="2" data-ngthumb="img03T.jpg"    >Image2</a>
-  <a href="img04.jpg"                     data-ngid="22" data-ngalbumid="2" data-ngthumb="img04T.jpg"    >Image3</a>
+  <a href=""          data-ngkind="album" data-ngid="2"                     data-ngthumb="./dist/img/image_02t.jpg" >Album B</a>
+  <a href="./dist/img/img02.jpg"                     data-ngid="20" data-ngalbumid="2" data-ngthumb="img02T.jpg"    >Image1</a>
+  <a href="./dist/img/img03.jpg"                     data-ngid="21" data-ngalbumid="2" data-ngthumb="img03T.jpg"    >Image2</a>
+  <a href="./dist/img/img04.jpg"                     data-ngid="22" data-ngalbumid="2" data-ngthumb="img04T.jpg"    >Image3</a>
 </div>
 
 <!-- Video gallery -->
@@ -72,7 +72,7 @@ $("#my_nanogallery2").nanogallery2({
 <div id="my_nanogallery2" data-nanogallery2 = '{ "itemsBaseURL": "https://mywebserver/gallery/myimages/"}' >
   <a href="https://www.youtube.com/watch?v=Ir098VWCv8Q"                                >Youtube</a>
   <a href="my_video.mp4"                data-ngthumb="my_video_thumbnail.jpg"          >Self hosted video</a> 
-  <a href="img_01.jpg"                  data-ngthumb="img_01t.jpg"                     >Title Image1</a>
+  <a href="./dist/img/img01.png"                  data-ngthumb="img_01t.jpg"                     >Title Image1</a>
 </div>
 
 <!-- Lightbox -->
